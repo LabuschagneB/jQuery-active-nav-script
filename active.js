@@ -1,11 +1,3 @@
-<ul>
-  <li><a href="/">Home</li>
-  <li><a href="/products/">Products</li>
-  <li><a href="/contact/">Contact</li>
-</ul>
-
-
-<script type="text/javascript">
     var path = window.location.pathname.split('/');
     path = path[path.length - 1];
     if (path !== undefined) {
@@ -15,4 +7,3 @@
     .children('a')  // walks down one level from all selected li's
     .addClass('active');
 }
-</script>
